@@ -38,11 +38,27 @@
                 android:text="............"
                 tools:text="Here the quote will be displayed"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:gravity="center"
                 android:fontFamily="serif-monospace"
                 android:padding="8dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                  "
+                tools:text="Meaning : "
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:fontFamily="serif-monospace"
+                android:padding="8dp"/>
+
+
+
 
             <TextView
                 android:id="@+id/author_tv"
@@ -50,11 +66,39 @@
                 android:layout_height="wrap_content"
                 android:text="Jai Shree Krishna"
                 tools:text="Jai Shree Krishna"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textColor="#AEAEAE"
                 android:gravity="center"
                 android:fontFamily="serif-monospace"
                 android:padding="8dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                  "
+                tools:text="Description : "
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:fontFamily="serif-monospace"
+                android:padding="8dp"/>
+
+
+
+            <TextView
+                android:id="@+id/hindi_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:text=""
+                android:textSize="20sp"
+                android:textColor="#AEAEAE"
+                android:gravity="center"
+                android:fontFamily="serif-monospace"
+                android:padding="8dp"/>
+
 
         </LinearLayout>
     </ScrollView>

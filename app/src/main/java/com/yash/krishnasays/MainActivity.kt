@@ -64,6 +64,7 @@ class MainActivity : AppCompatActivity() {
     private fun setUI(quote: QuoteModel) {
         binding.quoteTv.text = quote.slok
         binding.authorTv.text = quote.adi.et
+        binding.hindiTv.text = quote.chinmay.hc
     }
 
     private fun setInProgress(inProgress: Boolean) {
