@@ -65,6 +65,8 @@ class MainActivity : AppCompatActivity() {
         binding.quoteTv.text = quote.slok
         binding.authorTv.text = quote.adi.et
         binding.hindiTv.text = quote.chinmay.hc
+        binding.desc.text = "Description :"
+        binding.mean.text = "Meaning : "
     }
 
     private fun setInProgress(inProgress: Boolean) {
