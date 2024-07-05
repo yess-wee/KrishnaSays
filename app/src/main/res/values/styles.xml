@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">#1A237E</item>
+        <item name="android:statusBarColor">#F57F17</item>
+    </style>
+
+    <!-- OnBoarding styles -->
+    <style name="OnBoardingTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">#B71C1C</item>
+        <item name="android:textSize">@dimen/text_xx_large</item> //---------------------------------------
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="OnBoardingSubTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">#F57F17</item>
+        <item name="android:textSize">@dimen/text_xx_medium</item> //---------------------------------------
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="OnBoarding.Button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/onboarding_button_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">#AFA039</item>
+        <item name="android:textSize">@dimen/text_xx_medium</item>
+        <item name="android:textColor">#672929</item>
+    </style>
+
+    <dimen name="text_xx_large">22</dimen>
+    <dimen name="text_xx_medium">20</dimen>
+    <dimen name="onboarding_button_height">50</dimen>
+</resources>
